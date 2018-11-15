@@ -263,7 +263,7 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps)(App);
 
-```
+````
 
 You will notice that if it wasn't for the dispatch method (and in a later lesson
 we will remove that as well), our component would have no knowledge of our
